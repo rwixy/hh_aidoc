@@ -1,12 +1,3 @@
-local ESX = nil
-
-Citizen.CreateThread(function()
-	while ESX == nil do
-	   TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-	   Citizen.Wait(200)
-	end
-end)
-
 local Active = false
 local test = nil
 local test1 = nil
