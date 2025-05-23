@@ -1,6 +1,3 @@
-ESX = nil
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-	
 ESX.RegisterServerCallback('hhfw:docOnline' , function(source, cb)
 	local src = source
 	local Ply = ESX.GetPlayerFromId(src)
